@@ -24,7 +24,6 @@ class ListNode {
 
 //a : 3
 //b : 1
-service
 
 //i = 0;
 //a - a -
@@ -33,32 +32,4 @@ service
 // Output: "Not possible"
 class Solution {
 
-      public String arrange(String input, int d){
-            Map<Character, Integer> hashMap = new HashMap<>();
-
-            for(int i = 0; i < input.length(); i++)
-                  hashMap.put(input.charAt(i), hashMap.getOrDefault(input.charAt(i), 0) + 1);
-
-            int[] output = new int[input.length()];
-
-            for(Map.Entry<Character, Integer> entry : hashMap.entrySet()){
-                  Character c = entry.getKey();
-                  int frequency = entry.getValue();
-
-                  int index = 0;
-                  if()
-
-                  for(int i = 0; i < frequency; i++){
-
-                        if(index >= input.length()) return "Not Possible";
-
-                        while(output[index + d] == 0){
-                              output[index]
-                        }
-
-                  }
-            }
-
-
-      }
 }
